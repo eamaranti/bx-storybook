@@ -1,0 +1,41 @@
+.side-nav {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+div.side-nav.wide.slim {
+  width: $sidebar-width !important;
+}
+
+.side-nav.wide.slim .collapsible .sv-slim-icon {
+  margin-left: 0.5rem;
+}
+
+.side-nav .collapsible button {
+  font-size: 15px;
+}
+
+.side-nav .collapsible>li a.collapsible-header.active {
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.side-nav .collapsible .fas,
+.side-nav .collapsible .fab,
+.side-nav .collapsible .far {
+  font-size: 1rem;
+}
+
+.sidenav-gradient {
+  background: $vertical-gradient-default;
+}
+
+.side-nav-text {
+  font-size: 15px;
+}
+
+.btn-bars {
+  margin: 0px;
+  background-color: #45cafc !important;
+}

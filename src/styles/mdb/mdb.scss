@@ -1,0 +1,138 @@
+/*!
+ * Material Design for Bootstrap 4
+ * Version: MDB PRO 4.7.5
+ *
+ *
+ * Copyright: Material Design for BootstrapS
+ * https://mdbootstrap.com/
+ *
+ * Read the license: https://mdbootstrap.com/general/license/
+ *
+ *
+ * Documentation: https://mdbootstrap.com/
+ *
+ * Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/
+ *
+ * Tutorials: https://mdbootstrap.com/education/bootstrap/
+ *
+ * Templates: https://mdbootstrap.com/templates/
+ *
+ * Support: https://mdbootstrap.com/support/
+ *
+ * Contact: office@mdbootstrap.com
+ *
+ * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
+ *
+ */
+
+@charset "UTF-8";
+
+// Bootstrap
+@import "~mdbreact/dist/scss/core/bootstrap/functions";
+@import "variables-bootstrap";
+@import "~mdbreact/dist/scss/core/bootstrap/rfs";
+
+// CORE
+@import "~mdbreact/dist/scss/core/mixins";
+// Your custom variables
+@import "~mdbreact/dist/scss/custom-variables";
+@import "colors";
+@import "variables-core";
+@import "~mdbreact/dist/scss/core/global";
+@import "~mdbreact/dist/scss/core/helpers";
+@import "typography-core";
+@import "~mdbreact/dist/scss/core/masks";
+@import "~mdbreact/dist/scss/core/waves";
+
+// FREE
+@import "~mdbreact/dist/scss/free/animations-basic";
+@import "~mdbreact/dist/scss/free/modules/animations-extended/module";
+@import "buttons";
+@import "~mdbreact/dist/scss/free/cards";
+@import "~mdbreact/dist/scss/free/dropdowns";
+@import "~mdbreact/dist/scss/free/input-group";
+@import "~mdbreact/dist/scss/free/navbars";
+@import "~mdbreact/dist/scss/free/pagination";
+@import "~mdbreact/dist/scss/free/badges";
+@import "modals";
+@import "~mdbreact/dist/scss/free/carousels";
+@import "~mdbreact/dist/scss/free/forms";
+@import "~mdbreact/dist/scss/free/msc";
+@import "~mdbreact/dist/scss/free/footers";
+@import "~mdbreact/dist/scss/free/list-group";
+@import "~mdbreact/dist/scss/free/tables";
+@import "~mdbreact/dist/scss/free/depreciated";
+@import "~mdbreact/dist/scss/free/steppers";
+@import "~mdbreact/dist/scss/free/loader";
+@import "~mdbreact/dist/scss/free/treeview";
+// Free addons
+@import "~mdbreact/dist/scss/addons/datatables";
+@import "~mdbreact/dist/scss/addons/datatables-select";
+@import "~mdbreact/dist/scss/addons/directives";
+@import "~mdbreact/dist/scss/addons/hierarchical-display";
+@import "~mdbreact/dist/scss/addons/flag";
+@import "~mdbreact/dist/scss/addons/rating";
+
+// PRO
+@import "variables-pro";
+@import "~mdbreact/dist/scss/pro/buttons";
+@import "~mdbreact/dist/scss/pro/social-buttons";
+@import "~mdbreact/dist/scss/pro/tabs";
+@import "~mdbreact/dist/scss/pro/cards-basic";
+@import "~mdbreact/dist/scss/pro/dropdowns";
+@import "~mdbreact/dist/scss/pro/navbars";
+@import "~mdbreact/dist/scss/pro/scrollspy";
+@import "~mdbreact/dist/scss/pro/modules/lightbox/module";
+@import "~mdbreact/dist/scss/pro/chips";
+@import "~mdbreact/dist/scss/pro/msc";
+@import "~mdbreact/dist/scss/pro/forms";
+@import "~mdbreact/dist/scss/pro/radio";
+@import "~mdbreact/dist/scss/pro/checkbox";
+@import "~mdbreact/dist/scss/pro/material-select";
+@import "~mdbreact/dist/scss/pro/switch";
+@import "~mdbreact/dist/scss/pro/file-input";
+@import "~mdbreact/dist/scss/pro/range";
+@import "~mdbreact/dist/scss/pro/input-group";
+@import "~mdbreact/dist/scss/pro/autocomplete";
+@import "accordion-basic";
+@import "~mdbreact/dist/scss/pro/modules/accordion-extended/module";
+@import "~mdbreact/dist/scss/pro/modules/parallax/module";
+@import "~mdbreact/dist/scss/pro/sidenav";
+@import "~mdbreact/dist/scss/pro/ecommerce";
+@import "~mdbreact/dist/scss/pro/carousels";
+@import "~mdbreact/dist/scss/pro/blog";
+@import "~mdbreact/dist/scss/pro/toasts";
+@import "~mdbreact/dist/scss/pro/animations";
+@import "~mdbreact/dist/scss/pro/progress";
+@import "~mdbreact/dist/scss/pro/scrollbar";
+@import "~mdbreact/dist/scss/pro/modules/megamenu/module";
+@import "~mdbreact/dist/scss/pro/tooltips";
+// Your custom skin
+@import "~mdbreact/dist/scss/custom-skin";
+@import "skins";
+@import "~mdbreact/dist/scss/pro/depreciated";
+
+// Picker
+@import "~mdbreact/dist/scss/pro/picker/default";
+@import "~mdbreact/dist/scss/pro/picker/default-time";
+@import "~mdbreact/dist/scss/pro/picker/default-date";
+
+// Sections
+@import "~mdbreact/dist/scss/pro/sections/templates";
+@import "~mdbreact/dist/scss/pro/sections/social";
+@import "~mdbreact/dist/scss/pro/sections/team";
+@import "~mdbreact/dist/scss/pro/sections/testimonials";
+@import "~mdbreact/dist/scss/pro/sections/magazine";
+@import "~mdbreact/dist/scss/pro/sections/pricing";
+@import "~mdbreact/dist/scss/pro/sections/contacts";
+
+// Pro addons
+@import "~mdbreact/dist/scss/addons-pro/steppers";
+@import "~mdbreact/dist/scss/addons-pro/timeline";
+@import "~mdbreact/dist/scss/addons-pro/cards-extended";
+@import "~mdbreact/dist/scss/addons-pro/chat";
+@import "~mdbreact/dist/scss/addons-pro/charts/module";
+@import "~mdbreact/dist/scss/addons-pro/vector-map";
+
+// Your custom styles
+@import "custom-styles";

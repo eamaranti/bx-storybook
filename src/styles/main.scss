@@ -1,0 +1,17 @@
+/** global vars **/
+@import './global-vars';
+/** ThridParty **/
+@import './mdb/mdb.scss';
+@import '~ag-grid-community/dist/styles/ag-grid.min.css';
+@import '~ag-grid-community/dist/styles/ag-theme-alpine.min.css';
+
+/** MIXINS **/
+@import './mixins/flex-alignment';
+@import './mixins/responsive';
+
+/** ELEMENTS **/
+@import './datepicker';
+@import './pills';
+@import './scrollbar';
+@import './search';
+@import './sidenav';

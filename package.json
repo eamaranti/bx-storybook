@@ -1,0 +1,61 @@
+{
+  "name": "uikit-bx",
+  "version": "0.0.15",
+  "description": "UI Kit Bluexpress",
+  "license": "MIT",
+  "files": [
+    "lib/*"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token w31875l3dak",
+    "build": "yarn build:css && tsc",
+    "build:css": "node-sass src/components/ -o lib/components"
+  },
+  "dependencies": {
+    "ag-grid-community": "^23.2.1",
+    "ag-grid-react": "^23.2.1",
+    "mdbreact": "git+https://eamaranti:51d39cda109d04bff59c35edaf034cd12395e120@github.com/Blue-Express/bx-ui-components-base.git",
+    "react-icons": "^3.11.0",
+    "react-scripts": "^3.4.3"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-docs": "^6.2.9",
+    "@storybook/addon-knobs": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/addons": "^6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.9",
+    "@storybook/source-loader": "^6.2.9",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-test-renderer": "^16.9.3",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "chromatic": "^5.1.0",
+    "css-loader": "^4.3.0",
+    "mini-css-extract-plugin": "^0.11.1",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts-ts": "^3.1.0",
+    "react-test-renderer": "^16.13.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "typescript": "^4.0.2",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  }
+}

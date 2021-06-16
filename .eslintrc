@@ -1,0 +1,44 @@
+{
+  "env": {
+    "es6": true
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@core", "./src/core"],
+          ["@components", "./src/components"],
+          ["@commons", "./src/components/commons"],
+          ["@pages", "./src/pages"],
+          ["@styles", "./src/styles"],
+          ["@assets", "./src/assets"]
+        ],
+        "extensions": [".js", ".jsx", ".json", ".ts"]
+      }
+    }
+  },
+  "extends": [
+    "react-app",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "prettier"
+  ],
+  "rules": {
+    "semi": 0,
+    "quotes": [2, "single"],
+    "quote-props": [2, "as-needed"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts"] }],
+    "prettier/prettier": [
+      "error", {
+        "semi": false,
+        "singleQuote": true
+      }
+    ]
+  }
+}

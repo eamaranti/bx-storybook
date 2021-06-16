@@ -1,0 +1,26 @@
+.btn{
+    line-height: 0.8rem !important;
+}
+.btn-outline-{
+    &primary{
+        border-width: 1px !important;
+    }
+    &default{
+        border-width: 1px !important;
+    }
+    &secondary{
+        border-width: 1px !important;
+    }
+    &success{
+        border-width: 1px !important;
+    }
+    &info{
+        border-width: 1px !important;
+    }
+    &warning{
+        border-width: 1px !important;
+    }
+    &danger{
+        border-width: 1px !important;
+    }
+}
