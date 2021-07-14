@@ -14,7 +14,7 @@
     "chromatic": "npx chromatic --project-token w31875l3dak",
     "build": "yarn build:css && tsc",
     "build:css": "node-sass src/components/ -o lib/components",
-    "predeploy": "npm run build-storybook",
+    "predeploy": "yarn build-storybook",
     "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
