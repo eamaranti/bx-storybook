@@ -8,8 +8,8 @@ module.exports = router => {
         '/confluence/:id',
         ConfluenceMiddleware({
             baseUrl: 'https://bxpress.atlassian.net/wiki',
-            username: 'eamaranti@nectia.com',
-            password: 'antonia2008'
+            username: '',
+            password: ''
             //username: process.env.confluenceUser,
             //password: process.env.confluencePassword
         })
