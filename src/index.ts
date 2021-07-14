@@ -1,4 +1,4 @@
-import DataGrid from "./components/dataGrid";
+
 import Select from "./components/select";
 
-export { DataGrid, Select };
+export { Select };

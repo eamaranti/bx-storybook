@@ -13,11 +13,11 @@ export default create({
   // UI
   appBg: 'white',
   appContentBg: 'white',
-  appBorderColor: 'grey',
-  appBorderRadius: 4,
+  appBorderColor: 'rgb(43,185,255)',
+  appBorderRadius: 10,
 
   // Typography
-  fontBase: '"Roboto", sans-serif',
+  fontBase: '"raleway", sans-serif',
   fontCode: 'monospace',
 
   // Text colors
@@ -25,8 +25,8 @@ export default create({
   textInverseColor: 'rgba(255,255,255,0.9)',
 
   // Toolbar default and active colors
-  barTextColor: 'black',
-  barSelectedColor: 'black',
+  barTextColor: 'rgb(43,185,255)',
+  barSelectedColor: 'rgb(51,99,255)',
   barBg: 'white',
 
   // Form colors

@@ -7,6 +7,7 @@ module.exports = {
     '@storybook/source-loader',
     '@storybook/addon-docs',
     'storybook-addon-designs',
+    '@storybook/addon-viewport'
     
     //'storybook-aem-confluence',
   ],
