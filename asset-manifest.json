@@ -2,7 +2,7 @@
   "files": {
     "0.8720b66b.iframe.bundle.js": "./0.8720b66b.iframe.bundle.js",
     "main.css": "./static/css/main.7d093684.chunk.css",
-    "main.js": "./main.8b196914.iframe.bundle.js",
+    "main.js": "./main.f443ad42.iframe.bundle.js",
     "main.css.map": "./static/css/main.7d093684.chunk.css.map",
     "runtime~main.js": "./runtime~main.54724ff9.iframe.bundle.js",
     "vendors~main.css": "./static/css/vendors~main.62390166.chunk.css",
@@ -18,9 +18,9 @@
     "4.18422891.iframe.bundle.js.LICENSE.txt": "./4.18422891.iframe.bundle.js.LICENSE.txt",
     "6.1ed0afa7.iframe.bundle.js.LICENSE.txt": "./6.1ed0afa7.iframe.bundle.js.LICENSE.txt",
     "iframe.html": "./iframe.html",
-    "precache-manifest.59dc4fb3da850fd3e31306b60fea8fea.js": "./precache-manifest.59dc4fb3da850fd3e31306b60fea8fea.js",
+    "precache-manifest.08b17fa74df234afe85d2aaeeb1054e3.js": "./precache-manifest.08b17fa74df234afe85d2aaeeb1054e3.js",
     "service-worker.js": "./service-worker.js",
-    "static/media/logo-blue.svg": "./static/media/logo-blue.3e2b7232.svg",
+    "static/media/logo-blue2.svg": "./static/media/logo-blue2.34a7a692.svg",
     "vendors~main.8add4d72.iframe.bundle.js.LICENSE.txt": "./vendors~main.8add4d72.iframe.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
@@ -28,6 +28,6 @@
     "static/css/vendors~main.62390166.chunk.css",
     "vendors~main.8add4d72.iframe.bundle.js",
     "static/css/main.7d093684.chunk.css",
-    "main.8b196914.iframe.bundle.js"
+    "main.f443ad42.iframe.bundle.js"
   ]
 }
