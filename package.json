@@ -22,8 +22,7 @@
     "gh-pages": "^3.2.3",
     "mdbreact": "git+https://eamaranti:51d39cda109d04bff59c35edaf034cd12395e120@github.com/Blue-Express/bx-ui-components-base.git",
     "react-icons": "^3.11.0",
-    "react-scripts": "^3.4.3",
-    "storybook-aem-confluence": "^1.0.0"
+    "react-scripts": "^3.4.3"
   },
   "peerDependencies": {
     "react": "^16.0.0",

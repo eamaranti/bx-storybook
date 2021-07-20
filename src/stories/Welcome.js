@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo-blue.svg';
+import logo from '../images/logo-blue2.svg';
 
 var Welcome = () => {
   return (

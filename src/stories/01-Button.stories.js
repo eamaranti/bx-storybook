@@ -1,11 +1,11 @@
 import React from 'react'
 import 'bootstrap-css-only/css/bootstrap.min.css'
 import '../styles/main.scss'
-import { action } from '@storybook/addon-actions'
+
 import PageStory from './PageStory'
 import { MDBRow, MDBCol, MDBBtn } from "mdbreact"
 import { withDesign } from 'storybook-addon-designs'
-
+import { action } from '@storybook/addon-actions'
 
 
 export default {
