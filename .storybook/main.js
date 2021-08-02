@@ -8,7 +8,7 @@ module.exports = {
     'storybook-addon-designs',
     '@storybook/addon-viewport',
     '@storybook/addon-actions',
-    
+    '@storybook/addon-essentials',
     //'storybook-aem-confluence',
   ],
 };

@@ -2,7 +2,7 @@
   "homepage": "https://blue-express.github.io/bx-storybook",
   "name": "bx-storybook",
   "version": "0.0.15",
-  "description": "UI Kit Bluexpress",
+  "description": "Design System Bluexpress",
   "license": "MIT",
   "files": [
     "lib/*"
@@ -18,9 +18,9 @@
     "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
-    "@storybook/addon-viewport": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-viewport": "^6.3.6",
     "gh-pages": "^3.2.3",
-    "mdbreact": "git+https://eamaranti:51d39cda109d04bff59c35edaf034cd12395e120@github.com/Blue-Express/bx-ui-components-base.git",
     "react-icons": "^3.11.0",
     "react-scripts": "^3.4.3"
   },
@@ -29,15 +29,15 @@
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.3.4",
-    "@storybook/addon-docs": "^6.3.4",
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-docs": "^6.3.6",
     "@storybook/addon-knobs": "^6.3.0",
-    "@storybook/addon-links": "^6.3.4",
-    "@storybook/addons": "^6.3.4",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/addons": "^6.3.6",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.4",
-    "@storybook/source-loader": "^6.3.4",
-    "@storybook/theming": "^6.3.4",
+    "@storybook/react": "^6.3.6",
+    "@storybook/source-loader": "^6.3.6",
+    "@storybook/theming": "^6.3.6",
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
     "@types/react-test-renderer": "^16.9.3",
