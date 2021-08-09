@@ -17,18 +17,11 @@ export default {
 
 export const Basics = () => {
   return (
-    <MDBRow className="m-5">
-      <MDBCol><MDBBtn color="primary" onClick={action('clicked')}>Primary</MDBBtn></MDBCol>
-      <MDBCol><MDBBtn onClick={action('clicked')}>Default</MDBBtn></MDBCol>
-      <MDBCol><MDBBtn color="secondary" onClick={action('clicked')}>Secondary</MDBBtn></MDBCol>
-      <MDBCol><MDBBtn color="success" onClick={action('clicked')}>Success</MDBBtn></MDBCol>
-      <MDBCol><MDBBtn color="info" onClick={action('clicked')}>Info</MDBBtn></MDBCol>
-      <MDBCol><MDBBtn color="warning" onClick={action('clicked')}>Warning</MDBBtn></MDBCol>
-      <MDBCol><MDBBtn color="danger" onClick={action('clicked')}>Danger</MDBBtn></MDBCol>
-    </MDBRow>
+    <div className="btn">boton</div>
+    
   )
-}
-Basics.parameters = {
+} 
+Basics.parameters = {  
   design: {
     type: 'figma',
     url:
