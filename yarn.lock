@@ -2207,6 +2207,30 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@datadog/browser-core@3.1.1":
+  version "3.1.1"
+  resolved "http://ci.nectia.com/nexus/repository/npm-group/@datadog/browser-core/-/browser-core-3.1.1.tgz#df1991dc0737b07bec6fcb0fa5f85503de82e083"
+  integrity sha512-HesJk+YGkcwIG0B6IN1ZqUROd2945StGCcATiIzSt98zb/QjhENcgXYe+GmbuQ7X5SJ7CJ+/McmUjp214Vi75w==
+  dependencies:
+    tslib "^1.10.0"
+
+"@datadog/browser-rum-core@3.1.1":
+  version "3.1.1"
+  resolved "http://ci.nectia.com/nexus/repository/npm-group/@datadog/browser-rum-core/-/browser-rum-core-3.1.1.tgz#389cca56bbaf3b4119f6a4d7e432c0b4337961c8"
+  integrity sha512-4hPdhpvc9g2fwqUUQS0YedDEJB8Y+sCNFsTcBf7XR6iXXXVPTLKQav/8hQlWscmLkfw1Yu580HnUv072kd36IQ==
+  dependencies:
+    "@datadog/browser-core" "3.1.1"
+    tslib "^1.10.0"
+
+"@datadog/browser-rum@^3.1.1":
+  version "3.1.1"
+  resolved "http://ci.nectia.com/nexus/repository/npm-group/@datadog/browser-rum/-/browser-rum-3.1.1.tgz#9b646c2383a56f00c2d5e82c3a204d400747a8f5"
+  integrity sha512-5gRD6JPtCQ9RzIQsm+6QKDNa6ovuaP/eELFS5xSxF1diJaNQJjFlkh7OzuPvvWpqpRqTZJ5k34FLHRrS4jcdZg==
+  dependencies:
+    "@datadog/browser-core" "3.1.1"
+    "@datadog/browser-rum-core" "3.1.1"
+    tslib "^1.10.0"
+
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
